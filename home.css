@@ -111,3 +111,18 @@ h3 {
   text-decoration: underline;
 } 
 
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#nav li{
+  display: inline;
+}
+
+#nav {
+  font-size: 25px;
+}
+

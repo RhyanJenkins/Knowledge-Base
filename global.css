@@ -5,21 +5,6 @@
 }
 
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
-  
- nav li {
-    display: inline;
-  }
-  
-#nav {
-    font-size: 25px;
-  }
-
   .sidenav{
     font-size: 20px;
     height: 30px;
@@ -29,15 +14,14 @@ nav ul {
 
 
   div{
-    position: fixed;
+    position: relative;
     min-width: 100px;
-    max-width: 300px;
-    top: 0px;
-    left: 0px;
+    max-width: 600px;
+    margin: 700px 0px 0px 0px;
     height: 100%;
     border-right: solid;
     border-color: black;
-    background-color: blue;
+    background-color: white;
     line-height: 2.0;
     font-size: 18px;
   }
