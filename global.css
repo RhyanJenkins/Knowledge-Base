@@ -1,0 +1,47 @@
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+ nav li {
+    display: inline;
+  }
+  
+#nav {
+    font-size: 25px;
+  }
+
+  .sidenav{
+    font-size: 20px;
+    border: solid;
+    height: 30px;
+    text-align: center;
+    margin: 0px 50px 0px 50px;
+  }
+
+  div{
+    position: fixed;
+    min-width: 200px;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    border-right: solid;
+    border-color: black;
+    line-height: 2.0;
+    font-size: 18px;
+  }
+
+  body { 
+    min-width: 290px;
+    line-height: 1.5;
+    font-family: "Open Sans";
+  }

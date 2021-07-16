@@ -1,0 +1,121 @@
+@media screen and (orientation: landscape) {
+  #road_pic{
+    margin: 200px 0px 0px 0px;
+    padding: 75px;
+    border: solid;
+    background: rgb(26, 113, 226);
+    display: block;
+  }
+}
+  @media screen and (orientation: portrait) {
+    #road_pic {
+      display: block;
+    /*  margin: 200px 0px 0px 0px; */
+     /* padding: 0px 0px 0px 0px;*/
+      width: 50%;
+      border: solid;
+      background: rgb(26, 113, 226);
+    }
+  }
+
+  @media screen and (orientation: portrait) {
+    #link {
+      margin: 500px;
+    }
+  }
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+
+#TDT {
+  display: block;
+  margin: auto;
+  padding: 155px 0px 20px 0px;
+}
+
+#truck {
+display: block;
+/*border: 1px solid #ddd;*/
+border-radius: 4px;
+margin: auto;
+padding: 55px 0px 20px 0px;
+/*width: 150px;*/
+}  
+
+
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+td, th {
+  text-align: center;
+  padding: 10px;
+} 
+
+
+#road_pic {
+  margin: 200px 0px 0px 420px;
+  padding: 75px;
+  border: solid;
+  background: rgb(26, 113, 226);
+  display: block;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+#link {
+  margin: 700px;
+  padding: auto;
+}
+
+#title1 {
+  text-align: center;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+#hours {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 20px;
+}
+
+#hero_description {
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
+h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: underline;
+}

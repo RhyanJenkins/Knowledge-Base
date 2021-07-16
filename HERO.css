@@ -1,0 +1,50 @@
+#hours {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  #hero_description {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+  }
+  
+  #main-doc{
+    position: absolute;
+    display: block;
+    justify-content: center;
+    margin-left: 40px;
+    padding: 0px 0px 0px 190px;
+    margin-bottom: 110px;
+    font-size: 25px;
+  }
+
+
+  #truck {
+  display: block;
+  /*border: 1px solid #ddd;*/
+  border-radius: 4px;
+  margin: auto;
+  padding: 55px 0px 20px 0px;
+  /*width: 150px;*/
+  }  
+  
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin: auto;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+  }
+  
+  td, th {
+    text-align: center;
+    padding: 10px;
+  } 
+
+  h1 {
+      text-align: center;
+  }
