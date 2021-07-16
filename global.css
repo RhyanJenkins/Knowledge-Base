@@ -1,11 +1,11 @@
-@media screen 
+/*@media screen 
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
 }
+*/
 
-
-  .sidenav{
+ /* .sidenav{
     font-size: 20px;
     height: 30px;
     text-align: center;
@@ -24,10 +24,96 @@
     background-color: white;
     line-height: 2.0;
     font-size: 18px;
-  }
+  } */
 
-  body { 
+ /* body { 
     min-width: 290px;
     line-height: 1.5;
     font-family: "Open Sans";
+  } */
+
+  #navbar {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  } 
+  
+  #nav li{
+    float: left; 
+  } 
+  
+  #nav a{
+    font-size: 25px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 0px 0px 16px;
+    margin: 0px 150px 0px 0px; 
+    text-decoration: none;
   }
+
+  #nav li {
+    border-right: 1px solid #bbb;
+  }
+
+  #nav a:link {
+    color: white;
+  }
+  
+  /*visited link */
+ #nav a:visited {
+    color: rgb(0, 183, 255);
+  } 
+  
+  /* mouse over link */
+ #nav a:hover {
+    color: red;
+  }
+  
+  /* selected link */
+#navbar a:active {
+    color: rgb(46, 57, 211);
+  }
+
+  
+#sidenav a:link {
+    color: white;
+  }
+  
+  /*visited link */
+#sidenav a:visited {
+    color: rgb(0, 183, 255);
+  } 
+  
+  /* mouse over link */
+#sidenav a:hover {
+    color: red;
+  }
+  
+  /* selected link */
+#HERO-nav a:active {
+    color: rgb(46, 57, 211);
+  }
+
+
+#sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 40px;
+    background-color: rgb(174, 185, 247);
+    }
+
+#sidebar div {
+  padding: 8px;
+  font-size: 24px;
+  display: block;
+  }
+  
+
+  

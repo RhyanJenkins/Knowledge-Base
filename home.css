@@ -64,21 +64,21 @@
       margin:0px 0px 0px 0px;
   } */
 
-#home-doc{
-    position: absolute;
+#home-doc {
+  /* position: absolute; */
     margin-left: 40px;
-    padding: 20px;
+    padding: 50px 0px 0px 205px;
     margin-bottom: 110px;
+    margin-top: 0px;
     font-size: 25px;
   } 
-
-#road_pic {
-  margin: 200px 0px 0px 300px;
-  padding: 75px;
+ 
+/*#road_pic {
   border: solid;
   background: rgb(26, 113, 226);
   display: block;
-} 
+  margin: 0px 0px 0px 0px;
+} */
 
 h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -88,7 +88,7 @@ h1 {
 } 
 
 #link {
-  margin: 500px;
+  margin: 400px;
   padding: auto;
 } 
 
@@ -111,7 +111,9 @@ h3 {
   text-decoration: underline;
 } 
 
-#navbar {
+
+
+/*#navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -124,5 +126,5 @@ h3 {
 
 #nav {
   font-size: 25px;
-}
+} */
 
