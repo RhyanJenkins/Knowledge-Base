@@ -29,7 +29,7 @@
           <li><a href="sources.asp">Vehicle Manager</a></li>
           <li><a href="index.asp">When Is It Verified</a></li>
           <li><a href="HERO.asp">Wrecker Request</a></li>
-          <p id="e-nav">EVENTS</p>
+          <h2 id="events">EVENTS</h2>
           <li><a href="phones.asp">Abandoned Vehicles</a></li>
           <li><a href="maintenance.asp">Citizen in Distress</a></li>
           <li><a href="howtos.asp">Collision-Critical</a></li>
@@ -56,7 +56,148 @@
             <li><a href="howtos.asp">How-To's</a></li> 
             <li><a href="sources.asp">Sources</a></li>
           </ul>
-        </nav>    
+        </nav>  
+      <h1>HERO Activites</h1> 
+      <p>When HERO is placed arrived on an event, on Info Page 2, the event will give you a <mark>drop down of different HERO activities</mark> to add to event. These will describe what the unit did while on scene.</p>
+      <img src="Images\HERO-event.png" alt="View of HERO event" id="event"
+      width="800" 
+      height="450">
+      <p>When you select an activity, press the <span style="color:green"> green "+" </span> to add it to the vehicle. To remove an already added activity, select the <span style="color: red"> red "X" </span>.</p>
+      <p>The options in the drop down are as follows:</p>
+    <!--- <ul>
+        <li>Abonded</li>
+        <li>Air</li>
+        <li>Assist Law Enforcement</li>
+        <li>Debris</li>
+        <li>Diesel</li>
+        <li>Dispatch Not Found</li>
+        <li>First Aid</li>
+        <li>Flat Tire</li>
+        <li>Gas</li>
+        <li>Jump Start</li>
+        <li>Mechanical</li>
+        <li>MOT/Traffic Control</li>
+        <li>Motorist Sleeping</li>
+        <li>No Assistance</li>
+        <li>Oil</li>
+        <li>Other</li>
+        <li>Phone</li>
+        <li>Push</li>
+        <li>Slow Roll</li>
+        <li>Tools/Minor Repairs</li>
+        <li>Tow Request</li>
+        <li>Void</li>
+        <li>Water</li>
+      </ul> -->
+    <div id="table">
+      <table style="width:100%" id="t01">
+        <tr>
+            <th colspan="2">Description Of Activities:</th>
+        </tr>
+        <tr>
+          <td>Abandoned</td>
+          <td>If vehicle is unoccupied</td>
+        </tr>
+        <tr>
+          <td>Air</td>
+          <td>To fill low tires</td>
+        </tr>
+        <tr>
+          <td>Assist Law Enforcement</td>
+          <td>Assisting LE with scene</td>
+        </tr>
+        <tr>
+          <td>Debris</td>
+          <td>Clearing debris from roadway</td>
+        </tr>
+        <tr>
+          <td>Diesel</td>
+          <td>Provide diesel fuel to vehicle</td>
+        </tr>
+        <td>Dispatch Not Found</td>
+        <td>Unable to find event</td>
+      </tr>
+      <tr>
+        <td>First Aid</td>
+        <td>Provide basic first aid</td>
+      </tr>
+      <tr>
+        <td>Flat Tire</td>
+        <td>Change a flat tire with motorists spare</td>
+      </tr>
+      <tr>
+        <td>Gas</td>
+        <td>Provide unleaded fuel to vehicle</td>
+      </tr>
+      <tr>
+        <td>Jump Start</td>
+        <td>Provide jump start to dead battery</td>
+      </tr>
+      <tr>
+        <td>Mechanical</td>
+        <td>Any mechanical issue</td>
+      </tr>
+      <tr>
+        <td>MOT/Traffic Control</td>
+        <td>ALWAYS a HERO activity, unless void or dispatch not found</td>
+      </tr>
+      <tr>
+        <td>Motorist Sleeping</td>
+        <td>Motorist asleep in vehicle</td>
+      </tr>
+      <tr>
+        <td>No Assistance</td>
+        <td>If motorist requests no assistance, or if vehicle pulls away before HERO can assist</td>
+      </tr>
+      <td>Oil</td>
+      <td>Provide oil to engine</td>
+    </tr>
+    <tr>
+      <td>Other</td>
+      <td>Such as vehicle escort, help securing load in bed of truck, etc. Place note in history of event to describe your "Other."</td>
+    </tr>
+    <tr>
+      <td>Phone</td>
+      <td>When motorist was using phone</td>
+    </tr>
+    <tr>
+      <td>Push</td>
+      <td>Provide vehicle push to safe location</td>
+    </tr>
+    <tr>
+      <td>Slow Roll</td>
+      <td>Provide slow roll to block/slow traffic so another unit/LE can move event to different location</td>
+    </tr>
+    <tr>
+      <td>Tools/Minor Repair</td>
+      <td>Provide tools (jack, wrench, etc.) or minor repair to vehicle</td>
+    </tr>
+    <tr>
+      <td>Tow Request</td>
+      <td>APD tow request for service/impound tow</td>
+    </tr>
+    <tr>
+      <td>Transport</td>
+      <td>When HERO transports motorist(s) from scene to safe location.
+
+       <span style="color: red"> HERO must provide TMC with the following information. </span> TMC must add information to event history:
+          <ul>
+            <li>Description of persons transported</li>
+            <li>Destination once transported</li>
+            <li>Starting and ending mileage of HERO truck</li>
+            <li>Advise when they are at specific location</li>
+          </ul>
+        </td>
+    </tr>
+    <tr>
+      <td>Void</td>
+      <td>When accidently placed wrong HERO unit on scene, use this to void them</td>
+    </tr>
+    <tr>
+      <td>Water</td>
+      <td>Provide water for overheated engines</td>
+    </tr>
+  </div>
 </main> 
 </body>
 </html>
