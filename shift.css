@@ -1,0 +1,33 @@
+#shift-doc {
+    margin-left: 100px;
+    padding: 50px 0px 0px 205px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    /*  border: solid; */
+}
+
+h2 {
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+h3 {
+    text-decoration: underline;
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+
+p {
+    word-wrap: break-word;
+    font-size: 25px;
+}
+
+ul {
+    font-size: 25px;
+}
+
+#indent {
+    text-indent: -36px;
+    padding-left: 36px;
+    font-size: 25px;
+}
