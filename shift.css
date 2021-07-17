@@ -6,10 +6,11 @@
     /*  border: solid; */
 }
 
-h2 {
+#shift1 {
     text-decoration: underline;
     font-size: 50px;
-}
+    text-align: center;
+} 
 
 h3 {
     text-decoration: underline;
@@ -22,7 +23,7 @@ p {
     font-size: 25px;
 }
 
-ul {
+#shifts {
     font-size: 25px;
 }
 

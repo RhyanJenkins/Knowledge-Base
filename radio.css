@@ -1,0 +1,27 @@
+#radio-doc {
+    margin-left: 100px;
+    padding: 50px 0px 0px 205px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    /*  border: solid; */
+}
+
+#headings {
+    text-decoration: underline;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 25px;
+}
+
+#radio {
+    display: block;
+    border-radius: 4px;
+    margin: auto;
+    padding: 55px 0px 20px 0px;
+}
