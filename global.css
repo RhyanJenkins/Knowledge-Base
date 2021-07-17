@@ -128,7 +128,7 @@
   }
   
 #side li {
-  list-style-type: none;
+  list-style-type: disc;
 }
 
 #side div {
@@ -139,6 +139,7 @@
 
 #HERO-nav {
     height: 100%;
+    font-family: 'Times New Roman', Times, serif;
     width: 250px;
     position: fixed;
     top: 0;
