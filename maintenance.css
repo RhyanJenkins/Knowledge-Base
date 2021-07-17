@@ -7,6 +7,24 @@
 } 
 
 #barstyle {
-    font-size: 35px;
-    ;
+    font-size: 28px;
+}
+
+#layout {
+    display: block;
+    border-radius: 4px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 30px;
+}
+
+#contact {
+    text-align: center;
 }
