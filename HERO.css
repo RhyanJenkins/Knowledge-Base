@@ -44,22 +44,6 @@ display: block;
     font-size: 25px;
   } 
 
- #side a {
-    text-decoration: none;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: normal;
-    text-transform: normal;
-    letter-spacing: normal;
-    line-height: 1.5em;
-    color: black;
-  }
-  
-#side li {
-  list-style-type: none;
-}
-
 #truck {
   display: block;
   /*border: 1px solid #ddd;*/
