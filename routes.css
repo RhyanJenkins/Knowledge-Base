@@ -33,44 +33,70 @@
         }
     
 #routes-doc {
-    /* position: absolute; */
         margin-left: 100px;
         padding: 50px 0px 0px 205px;
-        margin-bottom: 10px;
+        margin-bottom: 0px;
         margin-top: 0px;
-        border: solid;
+      /*  border: solid; */
   } 
 
   #tables {
-    margin: 0px 0px 0px 300px;
+    margin: 50px 0px 0px 300px;
     border: solid;
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    font-size: 25px;
     flex-wrap: wrap;
+    align-content: space-between;
   }
 
   #t01 th {
     background-color: black;
     color: white;
   }
+
+  #t02 {
+    color: red;
+  }
   
+#t02 th {
+  background-color: black;
+}
+
+  #body2 {
+   /* border: solid; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 200px;
+    gap: 25px;
+    position: relative;
+  }
 
   table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
+    margin: 25px 0px 0px 0px;
   }
   
+#m1 {
+  margin: 100px 0px 0px 0px;
+}
+
+#impo {
+  margin-top: -100px;
+}
+
 td, th {
     text-align: center;
     padding: 5px;
-
   } 
 
 h1 {
       text-align: center;
+      text-decoration: underline;
+      font-size: 55px;
   }
-
 
   h2 {
       text-align: center;
@@ -81,27 +107,24 @@ h3 {
   text-align: center;
   text-decoration: underline;
   font-size: 30px; 
+ /* margin-bottom: -10px; */
 }
 
-  h4 {
-    text-align: center;
-    text-decoration: underline;
-    font-size: 25px;
-  }
 
   p {
     text-align: left;
     font-size: 25px;
   }
 
-#double {
-    text-align: left;
-    font-size: 20px;
+#double1 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: -10px;
 }
 
 .roads {
       text-align: center;
       list-style-type: none;
-      font-size: 20px;
+      font-size: 25px;
   }
 
