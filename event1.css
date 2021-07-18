@@ -1,0 +1,31 @@
+#event1-doc {
+    margin-left: 100px;
+    padding: 50px 0px 0px 205px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  /*  border: solid; */
+} 
+
+h2 {
+    text-decoration: underline;
+    font-size: 35px;
+}
+
+p {
+    font-size: 25px;
+}
+
+#pic {
+    display: block;
+    border-radius: 4px;
+    margin: auto;
+    padding: 5px 0px 20px 0px;
+    
+}
+
+#indent {
+    text-indent: -36px;
+    padding-left: 36px;
+    font-size: 25px;
+    margin-top: -15px;
+}
