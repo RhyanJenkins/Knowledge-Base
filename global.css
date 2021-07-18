@@ -74,29 +74,26 @@
   }
   
   /* selected link */
-#navbar a:active {
-    color: rgb(46, 57, 211);
-  }
+/*#sidenav :active {
+  background-color: white;
+  color: rgb(7, 0, 0);
+  } */
 
-  
-#sidenav a:link {
-    color: white;
-  }
-  
+
   /*visited link */
-#sidenav a:visited {
-    color: rgb(0, 183, 255);
+#side a:visited {
+    color: rgb(12, 25, 209);
   } 
   
   /* mouse over link */
-#sidenav a:hover {
+#side a:hover {
     color: red;
   }
   
   /* selected link */
-#HERO-nav a:active {
+/*#HERO-nav a:active {
     color: rgb(46, 57, 211);
-  }
+  } */
 
 
 #sidebar {
