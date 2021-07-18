@@ -159,3 +159,7 @@ main {
     margin-top: 0px;
   /*  border: solid; */
 }
+
+#barstyle {
+  font-size: 35px;
+}
