@@ -1,17 +1,9 @@
-/*#event2-doc {
+/*#nato-doc {
     margin-left: 100px;
     padding: 50px 0px 0px 205px;
     margin-bottom: 0px;
     margin-top: 0px;
 } */
-
-#pic {
-    display: block;
-    border-radius: 4px;
-    margin: auto;
-    padding: 5px 0px 20px 0px;
-    
-}
 
 table, th, td {
     border: 1px solid black;
@@ -22,17 +14,16 @@ table, th, td {
   td {
     text-align: left;
     padding: 5px;
-    font-size: 20px;
+    font-size: 40px;
   } 
 
-  th {
+ th {
     background-color: black;
     color: white;
     text-align: center;
-    font-size: 25px;
+    font-size: 45px;
   }
 
-  p{
-      text-align: center;
-      font-size: 25px;
+  .letter {
+      background-color: rgb(197, 68, 236);
   }

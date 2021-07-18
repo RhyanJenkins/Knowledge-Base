@@ -33,17 +33,17 @@ font-size: 24px;
 display: block;
 }
 
-#main-doc{
+/*#main-doc{
    /* position: absolute; */
   /*  display: block; */
-  /*  justify-content: center; */
+  /*  justify-content: center; *
     margin-left: 40px;
     padding: 50px 0px 0px 270px;
     margin-bottom: 110px;
     margin-top: 0px;
     font-size: 25px;
   } 
-
+*/
 #truck {
   display: block;
   /*border: 1px solid #ddd;*/
