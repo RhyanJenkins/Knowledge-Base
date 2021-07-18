@@ -1,0 +1,44 @@
+#levsmain-doc {
+    margin-left: 100px;
+    padding: 50px 0px 0px 205px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  /*  border: solid; */
+} 
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 25px 0px 0px 0px;
+  }
+
+  td, th {
+    text-align: center;
+    padding: 5px;
+  } 
+
+  th {
+    background-color: black;
+    color: white;
+  }
+
+#tables {
+    margin: 0px 0px 0px 0px;
+   /* border: solid; */
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 25px;
+    flex-wrap: wrap;
+    align-content: space-between;
+  } 
+
+p {
+    font-size: 25px;
+}
+
+#impo {
+    border: solid;
+    border-color: red;
+    margin: 0px 0px 0px 0px;
+}
