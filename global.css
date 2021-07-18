@@ -64,9 +64,9 @@
   }
   
   /*visited link */
- #nav a:visited {
+ /*#nav a:visited {
     color: rgb(0, 183, 255);
-  } 
+  } */
   
   /* mouse over link */
  #nav a:hover {
@@ -74,16 +74,16 @@
   }
   
   /* selected link */
-/*#sidenav :active {
-  background-color: white;
+/*.sidenav :active {
+  background-color: rgb(199, 211, 35);
   color: rgb(7, 0, 0);
   } */
 
 
   /*visited link */
-#side a:visited {
+/*#side a:visited {
     color: rgb(12, 25, 209);
-  } 
+  } */
   
   /* mouse over link */
 #side a:hover {
@@ -91,8 +91,8 @@
   }
   
   /* selected link */
-/*#HERO-nav a:active {
-    color: rgb(46, 57, 211);
+/*#navbar a:active {
+    color: rgb(240, 238, 124);
   } */
 
 

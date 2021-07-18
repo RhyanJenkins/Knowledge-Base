@@ -1,3 +1,9 @@
+h2{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 30px;
+}
+
 p {
     font-size: 25px;
 }
@@ -6,6 +12,10 @@ p {
 #pic {
     display: block;
     border-radius: 4px;
-    margin: auto;
+    margin: -35px 1000px 0px 300px;
     padding: 5px 0px 20px 0px;
+}
+
+ul {
+    font-size: 25px;
 }
