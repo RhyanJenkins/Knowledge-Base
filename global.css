@@ -163,3 +163,7 @@ main {
 #barstyle {
   font-size: 35px;
 }
+
+#barstyles {
+  font-size: 28px;
+} /* for the maintenance page */
